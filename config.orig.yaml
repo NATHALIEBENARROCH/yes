@@ -1,0 +1,108 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: Navigator | Responsive Multipurpose Bootstrap Hugo Template
+theme: navigator-hugo
+menu:
+  nav:
+    - name: About
+      url: /about
+      weight: 2
+    - name: Service
+      url: /service
+      weight: 3
+    - name: Portfolio
+      url: /portfolio
+      weight: 4
+    - name: Blog
+      url: /blog
+      weight: 5
+    - name: Contact
+      url: /contact
+      weight: 6
+  service:
+    - name: Graphic Design
+      url: /service
+      weight: 1
+    - name: Web Design
+      url: /service
+      weight: 2
+    - name: Web Development
+      url: /service
+      weight: 3
+  quicklink:
+    - name: Partners
+      url: /about
+      weight: 1
+    - name: About
+      url: /about
+      weight: 2
+    - name: FAQ's
+      url: /about
+      weight: 3
+    - name: Badges
+      url: /about
+      weight: 4
+params:
+  home: Home
+  logo: images/logo.png
+  dateFormat: 6 January 2006
+  footerDescription: >-
+    Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce
+    dapibus, tellus cursus commodo, tortor mauris sed posuere.
+  hero:
+    enable: true
+    heading: We love to make brands grow
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est
+      incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem
+      ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam
+      unde repellat id expedita quae quisquam libero officia consequatur.
+    button: true
+    btnText: Know More
+    btnURL: 'https://themefisher.com/'
+    videoThumb: images/slider/video-player-thumb.jpg
+    videoURL: 'https://www.youtube.com/embed/g3-VxLQO7do'
+  aboutSm:
+    enable: true
+    title: We have explored the digital landscape with passion for a long time
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti
+      ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea
+      ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem
+      ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam
+      maiores iste soluta, nihil dolorem?
+  blog:
+    enable: true
+    topTitle: OUR UNTOLD STORY
+    title: Blog.
+    subtitle: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis
+      quasi itaque, obcaecati atque sit!
+  cta:
+    enable: true
+    bg: images/call-to-action/call-to-action-bg-2.jpg
+    title: Let's Create Something Together
+    subtitle: >-
+      Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum
+      auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed
+      odio sitain elit.
+    btnText: Contact Us
+  contact:
+    enable: true
+    topTitle: DROP US A NOTE
+    title: Contact Us.
+    subtitle: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis
+      quasi itaque, obcaecati atque sit!
+    address: '14/05, Stockhome <br> Victori Palace , United States'
+    phone: (03) 9283 2617
+    fax: +61 3827 3590
+    facebook: 'https://www.facebook.com/'
+    twitter: 'https://twitter.com/'
+    linkedin: 'https://www.linkedin.com/'
+    dribbble: 'https://dribbble.com/'
+    instagram: 'https://www.instagram.com/'
+    mapLatitude: '51.507351'
+    mapLongitude: '-0.127758'
+    mapMarker: images/marker.png
+
