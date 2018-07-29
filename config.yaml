@@ -8,6 +8,7 @@ title: JD Labs Inc.
 theme: navigator-hugo
 copyright: ' {year} JD Labs Technologies Inc. All rights reserved.'
 enableRobotsTXT: true
+# Menu and sections
 menu:
   nav:
     - name: About
