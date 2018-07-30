@@ -2,7 +2,7 @@
 # icons chart : http://fa2png.io/r/ionicons/
 # theme references: https://github.com/themefisher/navigator-hugo
 #                   https://themes.gohugo.io/navigator-hugo/
-baseURL: 'https://beta.jdlabs.co/'
+baseURL: 'https://beta.jdlabs.co/fr/'
 languageCode: en-ca
 title: JD Labs Inc.
 theme: navigator-hugo
