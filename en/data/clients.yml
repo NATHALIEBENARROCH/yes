@@ -1,0 +1,21 @@
+enable    : true
+title     : We care about our work
+description: >
+  We take pride in delivering applications the clients really need. Not what we believe he wants. This is why we gather
+  the best team to deliver ..........
+image     : images/about/about-1.jpg
+servicelist:
+  - name    : Genius Developers
+  - name    : Experts Linux Admins
+  - name    : Masters of architectures
+  - name    : Projects Masterminds
+clientLogo:
+  - image   : images/tech/logos/java_logo.svg
+  - image   : images/tech/logos/react_icon.svg
+  - image   : images/tech/logos/python-logo-inkscape.svg
+  - image   : images/tech/logos/microsoft-azure.svg
+  - image   : images/tech/logos/aws.svg
+  - image   : images/tech/logos/jenkins.svg
+  - image   : images/tech/logos/ansible_logo.svg
+  - image   : images/tech/logos/docker-icon.svg
+  

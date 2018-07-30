@@ -1,0 +1,28 @@
+enable    : true
+topTitle  : NOTRE LISTE DE SERVICES
+title     : Nos Services.
+subtitle  : Nous aimons les technologies et notre équipe détient de l'expertise dans tous les domaines suivants
+item      :
+  - icon  : tf-ion-ios-copy
+    title : Développement Applicatif
+    list  :
+      - name : Java  
+      - name : React / Node JS
+      - name : Python
+      - name : Full Stack 
+
+  - icon  : tf-ion-ios-cloud
+    title : Cloud & Hébergement
+    list  :
+      - name : Microsoft Azure
+      - name : Amazon Web Services
+      - name : Linux
+      - name : Cloud Privé
+
+  - icon  : tf-ion-cube
+    title : DevOps
+    list  :
+      - name : Déploiement Automatisé
+      - name : Livraison Continue
+      - name : Infrastructure as a Service
+      - name : Gestion de la Configuration
