@@ -1,0 +1,46 @@
+enable    : true
+topTite   : LITTLE MORE BRIEF
+title     : About Us.
+subtitle  : We were once consultants for many years. We joined forces and we created JD Labs.
+tabItem   :
+  - id        : philosophy
+    title     : Our Philosophy
+    heading   : We Build Technologies
+    content   : >
+      We plan.<br />
+      We code.<br />
+      We build.<br />
+      We deliver.<br />
+      We test.<br />
+      We host.<br />
+      We test again.<br /> 
+      We monitor.<br />
+    image     : images/company/company-image.jpg
+
+  - id        : mission
+    title     : Mission
+    heading   : Our Mission
+    content   : >
+      Delevering top quality application that will be easy to maintain and operate. We pride ourselves with great
+      software that are easy to use, maintain and evoluate.
+      <br /><br />
+      We build software that you will not have to change after a year because it does not do what you were looking
+      for in the first place. We will work with your team and develop the application they need.
+    image     : images/company/company-image-2.jpg
+
+  - id        : vision
+    title     : Vision
+    heading   : Our Vision
+    content   : >
+      We built a team because we did not want to be just another recrutment firm. We want to accompany your project
+      team all the way to the success. If we need to train your employees to one of the technology we use to develop
+      the application, we will have this person sitting with our team and live like he was one of us day after day,
+      until he becomes the expert.
+      <br /><br />
+      We will work with your product owner or your scrum master, to ensure there is visibility to the deliverables
+      we have to produce.
+      <br /><br />
+      We love fast pace evolving environment where there is total visibility to the work we accomplish.
+      <br /><br />
+      We are your extension development team!
+    image     : images/company/company-image-3.jpg
