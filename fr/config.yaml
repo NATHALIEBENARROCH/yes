@@ -14,7 +14,7 @@ menu:
     - name: À Propos
       url: /about
       weight: 2
-    - name: Service
+    - name: Services
       url: /service
       weight: 3
     # - name: Portfolio
