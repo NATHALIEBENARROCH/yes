@@ -1,14 +1,13 @@
 enable    : true
-title     : We care about our work
+title     : Nous nous soucions de notre travail
 description: >
-  We all have a love and hate relationship with all the applications we use in a day to day basis.
-  This is the reason that we build software to bring a better 
+  Nous .....
 image     : images/about/about-1.jpg
 servicelist:
-  - name    : Genius Developers
-  - name    : Experts Linux Admins
-  - name    : Masters of architectures
-  - name    : Projects Masterminds
+  - name    : Développeurs Ingénieux
+  - name    : Admins Linux Expert
+  - name    : Maîtres de l'architecture
+  - name    : Gestio
 clientLogo:
   - image   : images/tech/logos/java_logo.svg
   - image   : images/tech/logos/react_icon.svg

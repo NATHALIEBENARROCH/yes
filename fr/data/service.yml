@@ -1,10 +1,10 @@
 enable    : true
-topTitle  : A LIST OF SERVICES
-title     : Our Service.
-subtitle  : We love technologies and our team covers expertise in all the following fields.
+topTitle  : NOTRE LISTE DE SERVICES
+title     : Nos Services.
+subtitle  : Nous aimons les technologies et notre équipe détient de l'expertise dans tous les domaines suivants
 item      :
   - icon  : tf-ion-ios-copy
-    title : Application Development
+    title : Développement Applicatif
     list  :
       - name : Java  
       - name : React / Node JS
@@ -12,17 +12,17 @@ item      :
       - name : Full Stack 
 
   - icon  : tf-ion-ios-cloud
-    title : Cloud & Hosting
+    title : Cloud & Hébergement
     list  :
       - name : Microsoft Azure
       - name : Amazon Web Services
       - name : Linux
-      - name : Private Cloud
+      - name : Cloud Privé
 
   - icon  : tf-ion-cube
     title : DevOps
     list  :
-      - name : Automated Deployment
-      - name : Constinuous Delivery
+      - name : Déploiement Automatisé
+      - name : Livraison Continue
       - name : Infrastructure as a Service
-      - name : Configuration Management
+      - name : Gestion de la Configuration

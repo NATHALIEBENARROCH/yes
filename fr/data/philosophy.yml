@@ -1,25 +1,26 @@
 enable    : true
-topTite   : LITTLE MORE BRIEF
-title     : About Us.
-subtitle  : We were once consultants for many years. We joined forces and we created JD Labs.
+topTitle  : PLUS DE DÉTAILS
+title     : À propos.
+subtitle  : Nous avons été des consultants pendant plusieurs années. Nous avons aujourd'hui rassembler
+  nos forces et nous avons créé JD Labs.
 tabItem   :
   - id        : philosophy
-    title     : Our Philosophy
-    heading   : We Build Technologies
+    title     : Notre Philosophie
+    heading   : Nous créons de la Technologie
     content   : >
-      We plan.<br />
-      We code.<br />
-      We build.<br />
-      We deliver.<br />
-      We test.<br />
-      We host.<br />
-      We test again.<br /> 
-      We monitor.<br />
+      Nous planifions.<br />
+      Nous codons.<br />
+      Nous construisons.<br />
+      Nous livrons.<br />
+      Nous testons.<br />
+      Nous hébergeons.<br />
+      Nous testons encore.<br /> 
+      Nous surveillons.<br />
     image     : images/company/company-image.jpg
 
   - id        : mission
     title     : Mission
-    heading   : Our Mission
+    heading   : Notre Mission
     content   : >
       Delevering top quality application that will be easy to maintain and operate. We pride ourselves with great
       software that are easy to use, maintain and evoluate.
@@ -30,7 +31,7 @@ tabItem   :
 
   - id        : vision
     title     : Vision
-    heading   : Our Vision
+    heading   : Notre Vision
     content   : >
       We built a team because we did not want to be just another recrutment firm. We want to accompany your project
       team all the way to the success. If we need to train your employees to one of the technology we use to develop

@@ -1,13 +1,13 @@
 enable  : true
 item  :
   - icon  : tf-ion-ios-copy
-    title : Application Development
+    title : Développement Applicatif
     description : >
       We have experience in developing high quality application that receives high traffic and visibility. 
       We have built backend, frontend APIs and CMS for many type of industries ranging from medias to manufactures.
   
   - icon  : tf-ion-android-cloud
-    title : Cloud & Hosting
+    title : Cloud & Hébergement
     description : >
       Migrating an application to the Cloud? Need our help building or porting an application to the Cloud? 
       We have helped many projects moving legacy or completely rewrote an entire application to move it into the Cloud.  

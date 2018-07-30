@@ -2,7 +2,7 @@ enable  : true
 item    :
   - positionRight : false
     image : images/about/about-1.jpg
-    title : Technologies is in our blood
+    title : La Technologie est dans notre ADN
     description : >
       We learn new technologies almost every day. We test them, we evaluate them, we understand them to see
       how they can fit their purpose. We choose carefully technologies we use to make sure we won't have to
@@ -10,7 +10,7 @@ item    :
   
   - positionRight : true
     image : images/about/about-2.jpg
-    title : We think <application>
+    title : Nous pensons <application>
     description : >
       Integrating, distributing or scaling an application is how we think about it. We will evaluate all the 
       needs behind what we have to develop and how it is going to be used. We have built so many applications 
