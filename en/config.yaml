@@ -6,7 +6,7 @@ baseURL: 'https://beta.jdlabs.co/'
 languageCode: en-ca
 title: JD Labs Inc.
 theme: navigator-hugo
-copyright: ' {year} JD Labs Technologies Inc. All rights reserved.'
+copyright: "Copyright © {year} JD Labs Technologies Inc. All rights reserved."
 enableRobotsTXT: true
 # Menu and sections
 menu:
@@ -67,12 +67,17 @@ params:
     videoThumb: /images/splash/5.png
     # videoURL: 'https://www.youtube.com/embed/g3-VxLQO7do'
   aboutSm:
+    labelFooter: ABOUT
     enable: true
     title: We have explored the application development landscape with passion for a long time
     description: >-
       Our team is made of true experts that have more then ten years of experience in their respective fields.
       Our team code, host and maintain software every day. We are used to test new technologies and try them to
       better assist our clients into choosing the right technology for their needs.
+  company:
+    labelFooter: COMPANY
+  service:
+    labelFooter: OUR SERVICES
   blog:
     enable: false
     topTitle: OUR UNTOLD STORY
@@ -91,6 +96,7 @@ params:
     btnText: Contact Us
     btnURL: '/contact'
   contact:
+    labelFooter: FOLLOW US
     enable: true
     topTitle: DROP US A NOTE
     title: Contact Us.
@@ -98,14 +104,21 @@ params:
       Questions about how we can help or if you want to discuss about a new technology you want us to help you with.
       Drop us a note or call us. 
     address: '3 Place Ville Marie #400, Montreal, QC H3B 2E3'
+    addressLabel: Our Location
     phone: (514) 575-2497
+    phoneLabel: Call Us
     # fax: +61 3827 3590
     # facebook: 'https://www.facebook.com/'
+    socialLabel: We are social
     twitter: 'https://twitter.com/JDLabsMTL/'
     linkedin: 'https://www.linkedin.com/jdlabsmtl/'
     # dribbble: 'https://dribbble.com/'
     # instagram: 'https://www.instagram.com/'
+    btnText: Submit
     mapLatitude: '45.501872'
     mapLongitude: '-73.568811'
     mapMarker: images/marker.png
-
+    namePlaceholder: Your Name
+    messagePlaceholder: Message
+    subjectPlaceholder: Subject
+    emailPlaceholder: Your Email

@@ -25,19 +25,19 @@
             <div class="contact-form col-12 col-md-6 ">
                 <form id="contact-form" method="post" action="sendmail.php" role="form">
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        <input type="text" placeholder="{{ with .Site.Params.contact.namePlaceholder }}{{ . }}{{ end }}" class="form-control" name="name" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="{{ with .Site.Params.contact.emailPlaceholder }}{{ . }}{{ end }}" class="form-control" name="email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="{{ with .Site.Params.contact.subjectPlaceholder }}{{ . }}{{ end }}" class="form-control" name="subject" id="subject">
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                        <textarea rows="6" placeholder="{{ with .Site.Params.contact.messagePlaceholder }}{{ . }}{{ end }}" class="form-control" name="message" id="message"></textarea>
                     </div>
 
                     <div id="mail-success" class="success">
@@ -49,7 +49,7 @@
                     </div>
 
                     <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="{{ with .Site.Params.contact.btnText }}{{ . }}{{ end }}">
                     </div>
                 </form>
             </div>
@@ -58,24 +58,29 @@
             <div class="col-12 col-md-4">
                 <div class="address-block contact-meta-block">
                     <i class="tf-ion-android-pin"></i>
-                    <h4>Our Location</h4>
+                    <h4>{{ with .Site.Params.contact.addressLabel }}{{ . }}{{ end }}</h4>
                     {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>Call Us</h4>
+                    <h4>{{ with .Site.Params.contact.phoneLabel }}{{ . }}{{ end }}</h4>
                     <p>
-                         {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
-                        <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
+                        {{ if .Site.Params.contact.phone }} 
+                        {{ with .Site.Data.labels.office }}{{ . }}{{ end }}: {{ with .Site.Params.contact.phone }}{{ . }} {{ end }}
+                        <br>
+                        {{ end }}
+                        {{ if .Site.Params.contact.fax }} 
+                        {{ with .Site.Data.labels.fax }}{{ . }}{{ end }}: {{ with .Site.Params.contact.fax }}{{ . }} {{ end }}
+                        {{ end }} 
                     </p>
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="social-icons-block contact-meta-block">
                     <i class="tf-ion-ios-contact"></i>
-                    <h4>We are social</h4>
+                    <h4>{{ with .Site.Params.contact.socialLabel }}{{ . }}{{ end }}</h4>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.linkedin }}
                         <li class="list-inline-item">

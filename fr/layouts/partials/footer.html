@@ -4,11 +4,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>About</h3>
+                    <h3>{{ with .Site.Params.aboutsm.labelFooter }}{{ . }}{{ end }}</h3>
                     {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Our Services</h3>
+                    <h3>{{ with .Site.Params.Service.labelFooter }}{{ . }}{{ end }}</h3>
                     <ul>
                         {{ range .Site.Menus.service }}
                         <li>
@@ -18,7 +18,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Company</h3>
+                    <h3>{{ with .Site.Params.Company.labelFooter }}{{ . }}{{ end }}</h3>
                     <ul>
                         {{ range .Site.Menus.company }}
                         <li>
@@ -28,7 +28,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>FOLLOW US</h3>
+                    <h3>{{ with .Site.Params.contact.labelFooter }}{{ . }}{{ end }}</h3>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.linkedin }}
                         <li class="list-inline-item">
@@ -71,7 +71,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <h5>Copyright &copy; {{ replace .Site.Copyright "{year}" now.Year }}</h5>
+        <h5>{{ replace .Site.Copyright "{year}" now.Year }}</h5>
     </div>
 </footer>
 {{ "<!-- end footer -->" | safeHTML }}
