@@ -89,6 +89,7 @@ params:
       Our team is ready for your project! From architecture, to realisation and operations, we can help you realise
       your next innovative project.
     btnText: Contact Us
+    btnURL: '/contact'
   contact:
     enable: true
     topTitle: DROP US A NOTE
