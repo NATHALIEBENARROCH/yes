@@ -74,10 +74,12 @@
 	$('.clients-logo-slider').slick({
 		infinite: true,
 		arrows:false,
-		autoplay: true,
-  		autoplaySpeed: 2000,
-  		slidesToShow: 5,
-  		slidesToScroll: 1,
+		autoplay: false,
+		autoplaySpeed: 2000,
+		variableWidth: false,
+		adaptiveHeight: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
 	});
 
 

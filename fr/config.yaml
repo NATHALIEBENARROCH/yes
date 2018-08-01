@@ -122,4 +122,7 @@ params:
     messagePlaceholder: Message
     subjectPlaceholder: Sujet
     emailPlaceholder: Votre Courriel
+    formActionURL: /api/index.php
+    formActionSuccess: Merci de nous avoir contacté. Nous vous répondrons sous peu.
+    formActionError: Nous sommes désolé une erreur c'est produite. Appelez-nous.
 

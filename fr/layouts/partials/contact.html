@@ -23,7 +23,7 @@
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="sendmail.php" role="form">
+                <form id="contact-form" method="post" action="{{ with .Site.Params.contact.formActionURL }}{{ . }}{{ end }}" role="form">
                     <div class="form-group">
                         <input type="text" placeholder="{{ with .Site.Params.contact.namePlaceholder }}{{ . }}{{ end }}" class="form-control" name="name" id="name">
                     </div>
@@ -41,11 +41,11 @@
                     </div>
 
                     <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
+                        {{ with .Site.Params.contact.formActionSuccess }}{{ . }}{{ end }}
                     </div>
 
                     <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
+                        {{ with .Site.Params.contact.formActionError }}{{ . }}{{ end }}
                     </div>
 
                     <div id="cf-submit">

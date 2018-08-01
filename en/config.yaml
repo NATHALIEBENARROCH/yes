@@ -115,10 +115,13 @@ params:
     # dribbble: 'https://dribbble.com/'
     # instagram: 'https://www.instagram.com/'
     btnText: Submit
-    mapLatitude: '45.501872'
-    mapLongitude: '-73.568811'
+    mapLatitude: 45.501872
+    mapLongitude: -73.568811
     mapMarker: images/marker.png
     namePlaceholder: Your Name
     messagePlaceholder: Message
     subjectPlaceholder: Subject
     emailPlaceholder: Your Email
+    formActionURL: /api/index.php
+    formActionSuccess: Thank you. We will get back to you shortly.
+    formActionError: We are sorry an error happened. Please call us.
