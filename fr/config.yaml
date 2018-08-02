@@ -89,8 +89,8 @@ params:
     title: Créons quelque chose ensemble!
     subtitle: >-
       Vous ne savez pas par où commencer avec le développement de votre nouvelle application ou avez déjà beaucoup de projets dans votre assiette?
-      <br />
-      Notre équipe est prête pour votre projet! De l'architecture, à la réalisation et aux opérations, nous pouvons vous aider à réaliser votre prochain projet technologique.
+      <br />
+      Notre équipe est prête pour votre projet! De l'architecture, à la réalisation et aux opérations, nous pouvons vous aider à réaliser votre prochain projet technologique.
     btnText: Contactez-Nous
     btnURL: '/fr/contact'
   contact:
