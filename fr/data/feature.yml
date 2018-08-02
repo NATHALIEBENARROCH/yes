@@ -3,17 +3,17 @@ item  :
   - icon  : tf-ion-ios-copy
     title : Développement Applicatif
     description : >
-      We have experience in developing high quality application that receives high traffic and visibility. 
-      We have built backend, frontend APIs and CMS for many type of industries ranging from medias to manufactures.
+      Nous avons de l'expérience dans le développement d'applications de haute qualité, a haut volume de trafic et de grande visibilité.
+      Nous avons créé des API backend, frontend et des CMS pour de nombreux types d’industries allant des médias au domaine manufacturier.
   
   - icon  : tf-ion-android-cloud
     title : Cloud & Hébergement
     description : >
-      Migrating an application to the Cloud? Need our help building or porting an application to the Cloud? 
-      We have helped many projects moving legacy or completely rewrote an entire application to move it into the Cloud.  
+      Un projet de migration d'une application vers le cloud? Ou encore, vous avez besoin de notre aide pour construire ou porter une application sur le Cloud?
+      Nous avons aidé de nombreux projets à faire évoluer des applications légataires ou à réécrire une application entière pour la transférer dans le Cloud.
 
   - icon  : tf-ion-cube
     title : DevOps
     description : >
-      We are true believers that the application must be deployed and made available as soon as the code review and 
-      the quality gates are passed. Using DevOps techniques to accomplish CI/CD is part of our DNA.
+      Nous croyons sincèrement que l'application doit être déployée et mise à disposition dès que la révision du code et
+      les tests de qualité sont passés. L'utilisation des techniques DevOps pour accomplir l'intégration continue fait partie de notre ADN.

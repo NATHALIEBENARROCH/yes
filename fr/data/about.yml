@@ -4,16 +4,15 @@ item    :
     image : images/about/about-1.jpg
     title : La Technologie est dans notre ADN
     description : >
-      We learn new technologies almost every day. We test them, we evaluate them, we understand them to see
-      how they can fit their purpose. We choose carefully technologies we use to make sure we won't have to
-      change them in the middle of a project and to ensure the robustness of our application.
-  
+      Nous apprenons de nouvelles technologies presque tous les jours. Nous les testons, nous les évaluons, nous les comprenons pour voir
+      comment ils peuvent répondre de nouveaux objectifs. Nous choisissons soigneusement les technologies que nous utilisons pour nous assurer
+      de ne pas avoir à les changer en milieu d'un projet et ainsi s'assurer de la robustesse de notre application.
   - positionRight : true
     image : images/about/about-2.jpg
     title : Nous pensons <application>
     description : >
-      Integrating, distributing or scaling an application is how we think about it. We will evaluate all the 
-      needs behind what we have to develop and how it is going to be used. We have built so many applications 
-      that we master almost all the type of architecture an application can require.
+      L'intégration, la distribution ou la mise à l'échelle d'une application est notre façon de voir. Nous allons évaluer tous les
+      besoins derrière ce que nous devons développer et comment cette dernière sera utilisée. Nous avons construit plusieurs applications
+      et nous maîtrisons presque tous les types d’architectures, dont une application peut avoir besoin.
       
-      Let's start working togheter at building your next technology.
+      Commençons à travailler ensemble à la construction de votre prochaine technologie.

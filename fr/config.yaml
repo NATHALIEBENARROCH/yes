@@ -99,8 +99,8 @@ params:
     topTitle: LAISSEZ-NOUS UN MESSAGE
     title: Contactez-Nous.
     subtitle: >-
-      Des questions sur la façon dont nous pouvons vous aider ou si vous souhaitez discuter d'une nouvelle technologie
-      avec laquelle vous souhaitez que nous vous aidions. 
+      Des questions sur la façon dont nous pouvons vous aider? Ou encore vous souhaitez discuter d'une nouvelle technologie
+      avec laquelle nous pourrions vous aider? 
       Contactez-nous ou appelez-nous!
     address: '3 Place Ville Marie #400, Montreal, QC H3B 2E3'
     addressLabel: Notre adresse
@@ -114,8 +114,8 @@ params:
     # dribbble: 'https://dribbble.com/'
     # instagram: 'https://www.instagram.com/'
     btnText: Envoyer
-    mapLatitude: '45.501872'
-    mapLongitude: '-73.568811'
+    mapLatitude: 45.501872
+    mapLongitude: -73.568811
     mapMarker: images/marker.png
     namePlaceholder: Votre Nom
     messagePlaceholder: Message

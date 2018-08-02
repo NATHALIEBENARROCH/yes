@@ -1,8 +1,9 @@
 enable    : true
 topTitle  : PLUS DE DÉTAILS
 title     : À propos.
-subtitle  : Nous avons été des consultants pendant plusieurs années. Nous avons aujourd'hui rassembler
-  nos forces et nous avons créé JD Labs.
+subtitle  : >-
+  Nous avons été des consultants pendant plusieurs années. Nous avons aujourd'hui rassembler nos forces et 
+  nous avons créé JD Labs.
 tabItem   :
   - id        : philosophy
     title     : Notre Philosophie
@@ -22,26 +23,25 @@ tabItem   :
     title     : Mission
     heading   : Notre Mission
     content   : >
-      Delevering top quality application that will be easy to maintain and operate. We pride ourselves with great
-      software that are easy to use, maintain and evoluate.
-      <br /><br />
-      We build software that you will not have to change after a year because it does not do what you were looking
-      for in the first place. We will work with your team and develop the application they need.
+      Nous livrons des applications de qualité supérieure, facile à entretenir et à utiliser. Nous sommes fiers que nos
+      logiciels soient faciles à utiliser, à maintenir et à modifier.
+      <br /> <br />
+      Nous construisons des logiciels sur mesure pour vos besoins. Nous travaillerons avec votre équipe et nous développerons
+      l'application dont ils ont besoin.
     image     : images/company/company-image-2.jpg
 
   - id        : vision
     title     : Vision
     heading   : Notre Vision
     content   : >
-      We built a team because we did not want to be just another recrutment firm. We want to accompany your project
-      team all the way to the success. If we need to train your employees to one of the technology we use to develop
-      the application, we will have this person sitting with our team and live like he was one of us day after day,
-      until he becomes the expert.
-      <br /><br />
-      We will work with your product owner or your scrum master, to ensure there is visibility to the deliverables
-      we have to produce.
-      <br /><br />
-      We love fast pace evolving environment where there is total visibility to the work we accomplish.
-      <br /><br />
-      We are your extension development team!
+      Nous avons constitué une équipe parce que nous ne voulions pas être simplement une autre firme de recrutement. 
+      Nous voulons accompagner votre équipe de projets jusqu'au succès. Nous irons jusqu'à former vos employés sur les technologies
+      que nous utilisons pour développer l'application. Pour ce faire nous inviterons cette personne à s'asseoir avec notre équipe et 
+      à vivre comme s'il était l'un des nôtre jour après jour, jusqu'à ce qu'il devienne l'expert de votre application.
+      <br /> <br />
+      Nous travaillerons avec le propriétaire de votre produit ou votre coach agile pour vous assurer la visibilité des livrables.
+      <br /> <br />
+      Nous adorons les environnements en évolution rapide, où la visibilité du travail que nous accomplissons est transparente.
+      <br /> <br />
+      Nous sommes votre équipe de développement d'extension!
     image     : images/company/company-image-3.jpg
