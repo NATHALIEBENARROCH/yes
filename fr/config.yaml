@@ -56,11 +56,10 @@ params:
     enable: true
     heading: Nous sommes votre équipe de développement d'extension
     description: >-
-      We created JD Labs because we love building tomorrow's technologies. We have been around for many years helping
-      companies build and host many innovative applications. Our group of experts offers our clients an entire team 
-      that can expand your existing development team or take on the extra development projects you do not have time to
-      realise. We can create proof of concept, write new applications, host and operate your application while you 
-      concentrate on your true business.
+      Nous avons créé JD Labs, parce que nous aimons construire les technologies de demain. Nous avons été consultant pendant de nombreuses années tout en aidant
+      les entreprises à construire et héberger de nombreuses technologies. Notre groupe d'experts offre à nos clients une équipe entière,
+      qui peut agrandir votre équipe de développement existante ou prendre en charge les projets de développement supplémentaires que vous n'avez pas le temps de réaliser.
+      Nous pouvons créer une preuve de concept, écrire de nouvelles applications, héberger et exploiter votre application, pendant que vous vous concentrez sur vos affaires.
     button: true
     btnText: Contactez-Nous
     btnURL: '/fr/contact'
@@ -69,11 +68,11 @@ params:
   aboutSm:
     labelFooter: ACCUEIL
     enable: true
-    title: We have explored the application development landscape with passion for a long time
+    title: Nous avons exploré avec passion le paysage du développement d'applications depuis longtemps
     description: >-
-      Our team is made of true experts that have more then ten years of experience in their respective fields.
-      Our team code, host and maintain software every day. We are used to test new technologies and try them to
-      better assist our clients into choosing the right technology for their needs.
+      Notre équipe est composée de véritables experts, qui ont plus de dix ans d'expérience dans leurs domaines respectifs.
+      Notre équipe code, héberge et maintient des logiciels tous les jours. Nous avons l'habitude de tester de nouvelles technologies et de les essayer pour
+      mieux aider nos clients à choisir la technologie adaptée à leurs besoins.
   company:
     labelFooter: COMPAGNIE
   service:
@@ -89,10 +88,9 @@ params:
     bg: images/call-to-action/call-to-action-bg-2.jpg
     title: Créons quelque chose ensemble!
     subtitle: >-
-      Not sure where to start with your new application development or having to much projects on your plate already?
-      <br />
-      Our team is ready for your project! From architecture, to realisation and operations, we can help you realise
-      your next innovative project.
+      Vous ne savez pas par où commencer avec le développement de votre nouvelle application ou avez déjà beaucoup de projets dans votre assiette?
+      <br />
+      Notre équipe est prête pour votre projet! De l'architecture, à la réalisation et aux opérations, nous pouvons vous aider à réaliser votre prochain projet technologique.
     btnText: Contactez-Nous
     btnURL: '/fr/contact'
   contact:
@@ -101,8 +99,9 @@ params:
     topTitle: LAISSEZ-NOUS UN MESSAGE
     title: Contactez-Nous.
     subtitle: >-
-      Questions about how we can help or if you want to discuss about a new technology you want us to help you with.
-      Drop us a note or call us. 
+      Des questions sur la façon dont nous pouvons vous aider ou si vous souhaitez discuter d'une nouvelle technologie
+      avec laquelle vous souhaitez que nous vous aidions. 
+      Contactez-nous ou appelez-nous!
     address: '3 Place Ville Marie #400, Montreal, QC H3B 2E3'
     addressLabel: Notre adresse
     phone: (514) 575-2497
