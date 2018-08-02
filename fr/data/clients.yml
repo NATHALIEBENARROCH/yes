@@ -1,12 +1,13 @@
 enable    : true
 title     : Nous nous soucions de notre travail
 description: >
-  Nous .....
+  Nous sommes fiers de fournir des applications dont les clients ont vraiment besoin. 
+  C'est pourquoi nous avons rassemblé la meilleure équipe pour fournir les meilleures applications.
 image     : images/about/about-1.jpg
 servicelist:
   - name    : Développeurs Ingénieux
-  - name    : Admins Linux Expert
-  - name    : Maîtres de l'architecture
+  - name    : Experts Admins Linux
+  - name    : Maîtres d'architectures
   - name    : Projets Agiles
 clientLogo:
   - image   : images/tech/logos/java_logo.svg

@@ -5,12 +5,12 @@
         <div class="row">
             <div class="col">
                 <div class="title text-center">
-                    {{ with .Site.Params.contact.topTitle }}<h4>{{.}}</h4>{{ end }}
+                    {{ with .Site.Params.contact.topTitle }}<h4>{{ . | safeHTML}}</h4>{{ end }}
                     {{ with .Site.Params.contact.title }}
                     <h2>{{.}}</h2>
                     <span class="border"></span>
                     {{ end }}
-                    {{ with .Site.Params.contact.subtitle }}<p>{{.}}</p>{{ end }}
+                    {{ with .Site.Params.contact.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
         </div>
@@ -23,21 +23,21 @@
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="{{ with .Site.Params.contact.formActionURL }}{{ . }}{{ end }}" role="form">
+                <form id="contact-form" method="post" action="{{ with .Site.Params.contact.formActionURL }}{{ . | safeHTML }}{{ end }}" role="form">
                     <div class="form-group">
-                        <input type="text" placeholder="{{ with .Site.Params.contact.namePlaceholder }}{{ . }}{{ end }}" class="form-control" name="name" id="name">
+                        <input type="text" placeholder="{{ with .Site.Params.contact.namePlaceholder }}{{ . | safeHTML }}{{ end }}" class="form-control" name="name" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="{{ with .Site.Params.contact.emailPlaceholder }}{{ . }}{{ end }}" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="{{ with .Site.Params.contact.emailPlaceholder }}{{ . | safeHTML }}{{ end }}" class="form-control" name="email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="{{ with .Site.Params.contact.subjectPlaceholder }}{{ . }}{{ end }}" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="{{ with .Site.Params.contact.subjectPlaceholder }}{{ . | safeHTML }}{{ end }}" class="form-control" name="subject" id="subject">
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" placeholder="{{ with .Site.Params.contact.messagePlaceholder }}{{ . }}{{ end }}" class="form-control" name="message" id="message"></textarea>
+                        <textarea rows="6" placeholder="{{ with .Site.Params.contact.messagePlaceholder }}{{ . | safeHTML }}{{ end }}" class="form-control" name="message" id="message"></textarea>
                     </div>
 
                     <div id="mail-success" class="success">
@@ -65,7 +65,7 @@
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>{{ with .Site.Params.contact.phoneLabel }}{{ . }}{{ end }}</h4>
+                    <h4>{{ with .Site.Params.contact.phoneLabel }}{{ . | safeHTML }}{{ end }}</h4>
                     <p>
                         {{ if .Site.Params.contact.phone }} 
                         {{ with .Site.Data.labels.office }}{{ . }}{{ end }}: {{ with .Site.Params.contact.phone }}{{ . }} {{ end }}
@@ -80,7 +80,7 @@
             <div class="col-12 col-md-4">
                 <div class="social-icons-block contact-meta-block">
                     <i class="tf-ion-ios-contact"></i>
-                    <h4>{{ with .Site.Params.contact.socialLabel }}{{ . }}{{ end }}</h4>
+                    <h4>{{ with .Site.Params.contact.socialLabel }}{{ . | safeHTML }}{{ end }}</h4>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.linkedin }}
                         <li class="list-inline-item">

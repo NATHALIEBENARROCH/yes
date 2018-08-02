@@ -2,8 +2,8 @@ enable    : true
 topTitle  : PLUS DE DÉTAILS
 title     : À propos.
 subtitle  : >-
-  Nous avons été des consultants pendant plusieurs années. Nous avons aujourd'hui rassembler nos forces et 
-  nous avons créé JD Labs.
+  Nous avons été des consultants pendant plusieurs années. <br />
+  Nous avons aujourd'hui rassembler nos forces et nous avons créé JD Labs.
 tabItem   :
   - id        : philosophy
     title     : Notre Philosophie
@@ -27,7 +27,7 @@ tabItem   :
       logiciels soient faciles à utiliser, à maintenir et à modifier.
       <br /> <br />
       Nous construisons des logiciels sur mesure pour vos besoins. Nous travaillerons avec votre équipe et nous développerons
-      l'application dont ils ont besoin.
+      l'application dont vous avez besoin.
     image     : images/company/company-image-2.jpg
 
   - id        : vision
@@ -39,7 +39,7 @@ tabItem   :
       que nous utilisons pour développer l'application. Pour ce faire nous inviterons cette personne à s'asseoir avec notre équipe et 
       à vivre comme s'il était l'un des nôtre jour après jour, jusqu'à ce qu'il devienne l'expert de votre application.
       <br /> <br />
-      Nous travaillerons avec le propriétaire de votre produit ou votre coach agile pour vous assurer la visibilité des livrables.
+      Nous travaillerons avec le propriétaire de votre produit ou votre coach agile pour vous assurer de la visibilité des livrables.
       <br /> <br />
       Nous adorons les environnements en évolution rapide, où la visibilité du travail que nous accomplissons est transparente.
       <br /> <br />

@@ -10,7 +10,7 @@
                     <h2>{{ . }}</h2>
                     <span class="border"></span>
                     {{ end }}
-                    {{ with .Site.Data.philosophy.subtitle }}<p>{{ . }}</p>{{ end }}
+                    {{ with .Site.Data.philosophy.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
         </div>

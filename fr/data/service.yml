@@ -1,7 +1,7 @@
 enable    : true
 topTitle  : NOTRE LISTE DE SERVICES
 title     : Nos Services.
-subtitle  : Nous aimons les technologies et notre équipe détient de l'expertise dans tous les domaines suivants
+subtitle  : Nous aimons les technologies et notre équipe détient de l'expertise dans tous les domaines suivants.
 item      :
   - icon  : tf-ion-ios-copy
     title : Développement Applicatif

@@ -1,8 +1,8 @@
 enable    : true
 title     : We care about our work
 description: >
-  We take pride in delivering applications the clients really need. Not what we believe he wants. This is why we gather
-  the best team to deliver ..........
+  We take pride in delivering applications the clients really need.
+  This is why we gather the best team to deliver the greatest applications.
 image     : images/about/about-1.jpg
 servicelist:
   - name    : Genius Developers

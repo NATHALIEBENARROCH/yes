@@ -99,9 +99,10 @@ params:
     topTitle: LAISSEZ-NOUS UN MESSAGE
     title: Contactez-Nous.
     subtitle: >-
-      Des questions sur la façon dont nous pouvons vous aider? Ou encore vous souhaitez discuter d'une nouvelle technologie
-      avec laquelle nous pourrions vous aider? 
-      Contactez-nous ou appelez-nous!
+      Des questions? Ou encore vous souhaitez discuter d'une nouvelle technologie avec laquelle nous pourrions vous aider?
+      <br />
+      <br />
+      <b>Contactez-nous ou appelez-nous!</b>
     address: '3 Place Ville Marie #400, Montreal, QC H3B 2E3'
     addressLabel: Notre adresse
     phone: (514) 575-2497
