@@ -46,9 +46,12 @@ menu:
     - name: Carrières
       url: /careers
       weight: 3
+    - name: Nos Services
+      url: /service
+      weight: 4
     - name: Anglais
       url: /en/
-      weight: 4
+      weight: 5
 params:
   author: JD Labs Technologies Inc.
   description: Bienvenue chez JD Labs Technologies Inc.
