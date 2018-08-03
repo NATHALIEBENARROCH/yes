@@ -2,7 +2,7 @@
 # icons chart : http://fa2png.io/r/ionicons/
 # theme references: https://github.com/themefisher/navigator-hugo
 #                   https://themes.gohugo.io/navigator-hugo/
-baseURL: 'https://beta.jdlabs.co/'
+baseURL: 'https://beta.jdlabs.co/en/'
 languageCode: en-ca
 title: JD Labs Inc.
 theme: navigator-hugo
@@ -47,7 +47,7 @@ menu:
       url: /careers
       weight: 3
     - name: French
-      url: /fr/
+      url: https://www.jdlabs.co/
       weight: 4
 params:
   author: JD Labs Technologies Inc.
@@ -69,7 +69,7 @@ params:
       concentrate on your true business.
     button: true
     btnText: Contact Us
-    btnURL: '/contact'
+    btnURL: '/en/contact'
     videoThumb: /images/splash/5.png
     # videoURL: 'https://www.youtube.com/embed/g3-VxLQO7do'
   aboutSm:
@@ -100,12 +100,12 @@ params:
       Our team is ready for your project! From architecture, to realisation and operations, we can help you realise
       your next innovative project.
     btnText: Contact Us
-    btnURL: '/contact'
+    btnURL: '/en/contact'
   errorPage:
     topTitle: 404
     title: Page not found    
-    btnText: Home
-    btnURL: '/'
+    btnText: Welcome
+    btnURL: '/en/'
     description: Sorry, but the page you were trying to view does not exist.
   contact:
     labelFooter: FOLLOW US
