@@ -49,7 +49,7 @@ menu:
     - name: Nos Services
       url: /service
       weight: 4
-    - name: Anglais
+    - name: English
       url: /en/
       weight: 5
 params:
