@@ -15,6 +15,8 @@ if [[ "v2" == "${BRANCH_NAME}" ]]; then
 	/usr/bin/rsync -azvh beta.jdlabs.co.conf apt.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/
 	ssh apt.enlightns.ca "sudo cp /srv/apps/staging/beta.jdlabs.co/beta.jdlabs.co.conf /etc/nginx/sites-available/beta.jdlabs.co.conf; sudo systemctl reload nginx.service"
 elif [[ "prod" == "${BRANCH_NAME}" ]]; then
+	# Change the baseURL to www.jdlabs.co
+	sed -i 's/beta/www/g' */config.yaml
 	ssh apt.enlightns.ca "rm -rf /srv/apps/production/www.jdlabs.co/*; mkdir -p /srv/apps/production/www.jdlabs.co/{en,fr}"
 	/usr/bin/rsync -azvh en/public apt.enlightns.ca:/srv/apps/production/www.jdlabs.co/en
 	/usr/bin/rsync -azvh fr/public apt.enlightns.ca:/srv/apps/production/www.jdlabs.co/fr
