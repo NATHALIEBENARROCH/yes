@@ -6,9 +6,9 @@ echo "Trying to deploy the branch ${BRANCH_NAME}"
 ### Access the working dir and render the files
 # 
 cd $WORKSPACE
-/usr/bin/make
 
 if [[ "v2" == "${BRANCH_NAME}" ]]; then
+	/usr/bin/make
 	ssh apt.enlightns.ca "rm -rf /srv/apps/staging/beta.jdlabs.co/*; mkdir -p /srv/apps/staging/beta.jdlabs.co/{en,fr}"
 	/usr/bin/rsync -azvh en/public apt.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/en
 	/usr/bin/rsync -azvh fr/public apt.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/fr
@@ -17,6 +17,7 @@ if [[ "v2" == "${BRANCH_NAME}" ]]; then
 elif [[ "prod" == "${BRANCH_NAME}" ]]; then
 	# Change the baseURL to www.jdlabs.co
 	sed -i 's/beta/www/g' */config.yaml
+	/usr/bin/make
 	ssh apt.enlightns.ca "rm -rf /srv/apps/production/www.jdlabs.co/*; mkdir -p /srv/apps/production/www.jdlabs.co/{en,fr}"
 	/usr/bin/rsync -azvh en/public apt.enlightns.ca:/srv/apps/production/www.jdlabs.co/en
 	/usr/bin/rsync -azvh fr/public apt.enlightns.ca:/srv/apps/production/www.jdlabs.co/fr
