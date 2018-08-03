@@ -93,6 +93,12 @@ params:
       Notre équipe est prête pour votre projet! De l'architecture, à la réalisation et aux opérations, nous pouvons vous aider à réaliser votre prochain projet technologique.
     btnText: Contactez-Nous
     btnURL: '/fr/contact'
+  errorPage:
+    topTitle: 404
+    title: Page Non Trouvée  
+    btnText: Accueil
+    btnURL: '/fr/'
+    description: Désolé, mais la page que vous tentiez d'afficher n'existe pas.
   contact:
     labelFooter: SUIVEZ-NOUS
     enable: true

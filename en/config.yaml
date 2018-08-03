@@ -95,6 +95,12 @@ params:
       your next innovative project.
     btnText: Contact Us
     btnURL: '/contact'
+  errorPage:
+    topTitle: 404
+    title: Page not found    
+    btnText: Home
+    btnURL: '/'
+    description: Sorry, but the page you were trying to view does not exist.
   contact:
     labelFooter: FOLLOW US
     enable: true
