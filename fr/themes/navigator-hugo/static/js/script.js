@@ -74,7 +74,7 @@
 	$('.clients-logo-slider').slick({
 		infinite: true,
 		arrows:false,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 2000,
 		variableWidth: false,
 		adaptiveHeight: false,
