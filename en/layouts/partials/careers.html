@@ -9,6 +9,9 @@
                     {{ with .Site.Data.careers.title }}<h2>{{.}}</h2><span class="border"></span>{{ end }}
                     {{ with .Site.Data.careers.subtitle }}<p>{{.}}</p>{{ end }}
                 </div>
+                <div class="title text-center">
+                    <a href="{{ with .Site.Data.careers.btnURL }}{{ . | absURL }}{{ end }}" class="btn btn-main">{{ with .Site.Data.careers.btnText }}{{ . }}{{ end }}</a>
+                </div>
             </div>
         </div>
         <div class="row">
