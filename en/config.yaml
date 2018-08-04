@@ -54,6 +54,7 @@ menu:
       weight: 5
 params:
   author: JD Labs Technologies Inc.
+  themeauthor: Design by themefisher
   description: Welcome at JD Labs Technologies Inc.
   googleTagManager: UA-118656387-1
   home: Home
