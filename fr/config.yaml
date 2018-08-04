@@ -59,6 +59,9 @@ params:
   home: Accueil
   logo: images/logo.png
   dateFormat: 1 August 2018
+  otherLanguage:
+    label: EN
+    url: /en
   footerDescription: >-
     Chez JD Labs, nous faisons parti de votre équipe de développement. Nous sommes votre équipe d'extension.
   hero:

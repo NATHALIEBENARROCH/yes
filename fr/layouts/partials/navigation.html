@@ -22,7 +22,7 @@
                             </li>
                             {{ end }}
                             <li class="nav-item">
-                                <a class="nav-link" href="/fr">FR</a>
+                                <a class="nav-link" href="{{ with .Site.Params.otherLanguage.url }}{{ . | absURL }}{{ end }}">{{ with .Site.Params.otherLanguage.label }}{{ . | safeHTML }}{{ end }}</a>
                             </li>
                         </ul>
                     </div>
