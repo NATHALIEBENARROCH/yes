@@ -18,11 +18,11 @@ elif [[ "prod" == "${BRANCH_NAME}" ]]; then
 	# Change the baseURL to www.jdlabs.co
 	sed -i 's/beta/www/g' */config.yaml
 	/usr/bin/make
-	ssh apt.enlightns.ca "rm -rf /srv/apps/production/www.jdlabs.co/*; mkdir -p /srv/apps/production/www.jdlabs.co/{en,fr}"
-	/usr/bin/rsync -azvh en/public apt.enlightns.ca:/srv/apps/production/www.jdlabs.co/en
-	/usr/bin/rsync -azvh fr/public apt.enlightns.ca:/srv/apps/production/www.jdlabs.co/fr
-	/usr/bin/rsync -azvh www.jdlabs.co.conf apt.enlightns.ca:/srv/apps/production/www.jdlabs.co/
-	ssh apt.enlightns.ca "sudo cp /srv/apps/production/www.jdlabs.co/www.jdlabs.co.conf /etc/nginx/sites-available/www.jdlabs.co.conf; sudo systemctl reload nginx.service"
+	ssh srv1.enlightns.com "rm -rf /srv/apps/production/www.jdlabs.co/*; mkdir -p /srv/apps/production/www.jdlabs.co/{en,fr}"
+	/usr/bin/rsync -azvh en/public srv1.enlightns.com:/srv/apps/production/www.jdlabs.co/en
+	/usr/bin/rsync -azvh fr/public srv1.enlightns.com:/srv/apps/production/www.jdlabs.co/fr
+	/usr/bin/rsync -azvh www.jdlabs.co.conf srv1.enlightns.com:/srv/apps/production/www.jdlabs.co/
+	ssh srv1.enlightns.com "sudo cp /srv/apps/production/www.jdlabs.co/www.jdlabs.co.conf /etc/nginx/sites-available/www.jdlabs.co.conf; sudo systemctl reload nginx.service"
 else
     echo "Your branch has not been configured for deployment: ${BRANCH_NAME}"
 fi
