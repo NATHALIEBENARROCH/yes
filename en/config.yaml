@@ -60,7 +60,7 @@ params:
   logo: images/logo.png
   dateFormat: 1 August 2018
   otherLanguage:
-    label: FR
+    label: fr
     url: /fr
   footerDescription: >-
     At JD Labs we are part of your development team, we are your extension team and we are always ready to code.
