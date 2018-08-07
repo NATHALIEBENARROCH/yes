@@ -9,11 +9,11 @@ cd $WORKSPACE
 
 if [[ "v2" == "${BRANCH_NAME}" ]]; then
 	/usr/bin/make
-	ssh apt.enlightns.ca "rm -rf /srv/apps/staging/beta.jdlabs.co/*; mkdir -p /srv/apps/staging/beta.jdlabs.co/{en,fr}"
-	/usr/bin/rsync -azvh en/public apt.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/en
-	/usr/bin/rsync -azvh fr/public apt.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/fr
-	/usr/bin/rsync -azvh beta.jdlabs.co.conf apt.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/
-	ssh apt.enlightns.ca "sudo cp /srv/apps/staging/beta.jdlabs.co/beta.jdlabs.co.conf /etc/nginx/sites-available/beta.jdlabs.co.conf; sudo systemctl reload nginx.service"
+	ssh srv1.enlightns.ca "rm -rf /srv/apps/staging/beta.jdlabs.co/*; mkdir -p /srv/apps/staging/beta.jdlabs.co/{en,fr}"
+	/usr/bin/rsync -azvh en/public srv1.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/en
+	/usr/bin/rsync -azvh fr/public srv1.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/fr
+	/usr/bin/rsync -azvh beta.jdlabs.co.conf srv1.enlightns.ca:/srv/apps/staging/beta.jdlabs.co/
+	ssh srv1.enlightns.ca "sudo cp /srv/apps/staging/beta.jdlabs.co/beta.jdlabs.co.conf /etc/nginx/sites-available/beta.jdlabs.co.conf; sudo systemctl reload nginx.service"
 elif [[ "prod" == "${BRANCH_NAME}" ]]; then
 	# Change the baseURL to www.jdlabs.co
 	sed -i 's/beta/www/g' */config.yaml
