@@ -76,7 +76,7 @@ params:
     button: true
     btnText: Contact Us
     btnURL: '/en/contact'
-    videoThumb: /images/splash/5.png
+    videoThumb: images/splash/5.png
     # videoURL: 'https://www.youtube.com/embed/g3-VxLQO7do'
   aboutSm:
     labelFooter: ABOUT

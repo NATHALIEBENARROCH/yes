@@ -75,11 +75,9 @@
 		infinite: true,
 		arrows:false,
 		autoplay: true,
-		autoplaySpeed: 2000,
-		variableWidth: false,
-		adaptiveHeight: false,
-		slidesToShow: 4,
-		slidesToScroll: 1,
+  		autoplaySpeed: 2000,
+  		slidesToShow: 5,
+  		slidesToScroll: 1,
 	});
 
 
@@ -212,27 +210,6 @@
 			});
 		}
 	});
-
-
-/* ========================================================================= */
-/*	On scroll fade/bounce effect
-/* ========================================================================= */
-	var scroll = new SmoothScroll('a[href*="#"]');
-
-/* ========================================================================= */
-	/*	Header Scroll Background Change
-	/* ========================================================================= */	
-	
-$(window).scroll(function() {    
-var scroll = $(window).scrollTop();
- //console.log(scroll);
-if (scroll > 200) {
-    //console.log('a');
-    $(".navigation").addClass("sticky-header");
-} else {
-    //console.log('a');
-    $(".navigation").removeClass("sticky-header");
-}});
 
 
 })(jQuery);
