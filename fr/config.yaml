@@ -115,6 +115,7 @@ params:
     labelFooter: SUIVEZ-NOUS
     enable: true
     topTitle: LAISSEZ-NOUS UN MESSAGE
+    mapImage: images/contact/map.png
     title: Contactez-Nous.
     subtitle: >-
       Des questions? Ou encore vous souhaitez discuter d'une nouvelle technologie avec laquelle nous pourrions vous aider?

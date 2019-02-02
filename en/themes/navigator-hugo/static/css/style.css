@@ -597,8 +597,9 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #707d8f;
+  color: #8b929d;
   margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 .hero-area .block .list-inline {
@@ -1790,6 +1791,10 @@ a:focus, a:hover {
 
 .page-404 h1 {
   font-size: 200px;
+}
+
+.img-baw {
+  filter: grayscale(1);
 }
 
 /*# sourceMappingURL=maps/style.css.map */

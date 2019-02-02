@@ -117,6 +117,7 @@ params:
     labelFooter: FOLLOW US
     enable: true
     topTitle: DROP US A NOTE
+    mapImage: images/contact/map.png
     title: Contact Us.
     subtitle: >-
       Questions about how we can help or if you want to discuss about a new technology you want us to help you with.
