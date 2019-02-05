@@ -632,9 +632,6 @@ a:focus, a:hover {
   text-align: center;
 }
 
-.img-baw {
-  filter: grayscale(1);
-}
 
 .video-player .play-icon:hover i {
   -webkit-transform: scale(1.1);

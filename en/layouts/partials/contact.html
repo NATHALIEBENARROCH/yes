@@ -19,7 +19,7 @@
             <div class="col-12 col-md-6">
                 <div class="map">
                     <a target="_blank" href="https://www.google.com/maps/@45.502233,-73.5680913,15.43z">
-                        <img width="100%" src="{{ with .Site.Params.contact.mapImage }}{{.}}{{ end }}" alt="map">
+                        <img width="100%" src="{{ with .Site.Params.contact.mapImage | absURL }}{{.}}{{ end }}" alt="map">
                     </a>
                 </div>
             </div>
