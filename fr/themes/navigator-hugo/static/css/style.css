@@ -597,8 +597,9 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #707d8f;
+  color: #8b929d;
   margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 .hero-area .block .list-inline {
@@ -631,7 +632,6 @@ a:focus, a:hover {
   height: 100%;
   text-align: center;
 }
-
 
 .video-player .play-icon:hover i {
   -webkit-transform: scale(1.1);

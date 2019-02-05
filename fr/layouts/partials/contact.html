@@ -18,7 +18,9 @@
             {{ "<!-- Contact Details -->" | safeHTML }}
             <div class="col-12 col-md-6">
                 <div class="map">
-                    <div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
+                    <a target="_blank" href="https://www.google.com/maps/@45.502233,-73.5680913,15.43z">
+                        <img width="100%" src="{{ with .Site.Params.contact.mapImage | absURL }}{{.}}{{ end }}" alt="map">
+                    </a>
                 </div>
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
