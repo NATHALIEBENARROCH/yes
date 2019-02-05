@@ -7,7 +7,7 @@ echo "Trying to deploy the branch ${BRANCH_NAME}"
 # 
 cd $WORKSPACE
 
-if [[ "v2" == "${BRANCH_NAME}" ]]; then
+if [[ "develop" == "${BRANCH_NAME}" ]]; then
 	/usr/bin/make
 	ssh srv1.enlightns.com "rm -rf /srv/apps/staging/beta.jdlabs.co/*; mkdir -p /srv/apps/staging/beta.jdlabs.co/{en,fr}"
 	/usr/bin/rsync -azvh en/public srv1.enlightns.com:/srv/apps/staging/beta.jdlabs.co/en
