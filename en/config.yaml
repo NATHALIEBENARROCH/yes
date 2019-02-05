@@ -50,7 +50,7 @@ menu:
       url: /service
       weight: 4
     - name: French
-      url: https://www.jdlabs.co/
+      url: /
       weight: 5
 params:
   author: JD Labs Technologies Inc.
@@ -61,7 +61,7 @@ params:
   dateFormat: 1 August 2018
   otherLanguage:
     label: fr
-    url: /fr
+    url: /
   footerDescription: >-
     At JD Labs we are part of your development team, we are your extension team and we are always ready to code.
   hero:
