@@ -19,7 +19,6 @@ item      :
       - name : Amazon Web Services
       - name : Google Cloud
       - name : Linux
-      - name : Cloud Privé
       - name : Kubernetes
 
   - icon  : tf-ion-cube
@@ -29,3 +28,4 @@ item      :
       - name : Livraison Continue
       - name : Infrastructure as a Service
       - name : Gestion de la Configuration
+      - name : Sécurité

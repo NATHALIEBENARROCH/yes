@@ -19,7 +19,6 @@ item      :
       - name : Amazon Web Services
       - name : Google Cloud
       - name : Linux
-      - name : Private Cloud
       - name : Kubernetes
 
   - icon  : tf-ion-cube
@@ -29,3 +28,4 @@ item      :
       - name : Constinuous Delivery
       - name : Infrastructure as Code
       - name : Configuration Management
+      - name : Security
