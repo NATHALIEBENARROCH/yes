@@ -6,23 +6,26 @@ item      :
   - icon  : tf-ion-ios-copy
     title : Application Development
     list  :
-      - name : Java  
-      - name : React / Node JS
+      - name : Full Stack
+      - name : Java
       - name : Python
-      - name : Full Stack 
+      - name : React / Node JS
+      - name : Distributed Apps
 
   - icon  : tf-ion-ios-cloud
     title : Cloud & Hosting
     list  :
       - name : Microsoft Azure
       - name : Amazon Web Services
+      - name : Google Cloud
       - name : Linux
-      - name : Private Cloud
+      - name : Kubernetes
 
   - icon  : tf-ion-cube
     title : DevOps
     list  :
       - name : Automated Deployment
       - name : Constinuous Delivery
-      - name : Infrastructure as a Service
+      - name : Infrastructure as Code
       - name : Configuration Management
+      - name : Security
