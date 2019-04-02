@@ -26,6 +26,6 @@ item      :
     list  :
       - name : Déploiement Automatisé
       - name : Livraison Continue
-      - name : Infrastructure as a Service
+      - name : Infrastructure as Code
       - name : Gestion de la Configuration
       - name : Sécurité
