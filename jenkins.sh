@@ -26,3 +26,4 @@ elif [[ "prod" == "${BRANCH_NAME}" ]]; then
 else
     echo "Your branch has not been configured for deployment: ${BRANCH_NAME}"
 fi
+
