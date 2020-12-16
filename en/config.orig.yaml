@@ -1,4 +1,4 @@
-baseURL: 'http://example.org/'
+baseURL: "http://example.org/"
 languageCode: en-us
 title: Navigator | Responsive Multipurpose Bootstrap Hugo Template
 theme: navigator-hugo
@@ -59,18 +59,14 @@ params:
       unde repellat id expedita quae quisquam libero officia consequatur.
     button: true
     btnText: Know More
-    btnURL: 'https://themefisher.com/'
+    btnURL: "https://themefisher.com/"
     videoThumb: images/slider/video-player-thumb.jpg
-    videoURL: 'https://www.youtube.com/embed/g3-VxLQO7do'
+    videoURL: "https://www.youtube.com/embed/g3-VxLQO7do"
   aboutSm:
     enable: true
     title: We have explored the digital landscape with passion for a long time
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti
-      ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea
-      ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem
-      ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam
-      maiores iste soluta, nihil dolorem?
+      JD Labs was launched because we are very good at building tomorrow's technologies.
   blog:
     enable: true
     topTitle: OUR UNTOLD STORY
@@ -94,15 +90,14 @@ params:
     subtitle: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis
       quasi itaque, obcaecati atque sit!
-    address: '14/05, Stockhome <br> Victori Palace , United States'
+    address: "14/05, Stockhome <br> Victori Palace , United States"
     phone: (03) 9283 2617
     fax: +61 3827 3590
-    facebook: 'https://www.facebook.com/'
-    twitter: 'https://twitter.com/'
-    linkedin: 'https://www.linkedin.com/'
-    dribbble: 'https://dribbble.com/'
-    instagram: 'https://www.instagram.com/'
-    mapLatitude: '51.507351'
-    mapLongitude: '-0.127758'
+    facebook: "https://www.facebook.com/"
+    twitter: "https://twitter.com/"
+    linkedin: "https://www.linkedin.com/"
+    dribbble: "https://dribbble.com/"
+    instagram: "https://www.instagram.com/"
+    mapLatitude: "51.507351"
+    mapLongitude: "-0.127758"
     mapMarker: images/marker.png
-

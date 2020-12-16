@@ -1,9 +1,9 @@
-enable    : true
-topTitle  : LOOKING FOR A JOB?
-title     : Job Offers
-subtitle  : We do not have open position at the moment. Thank you for your interest in JD Labs.
-btnText   : Contact Us
-btnURL    : /en/contact
+enable: true
+topTitle: LOOKING FOR A JOB?
+title: Job Offers
+subtitle: We do not have any open positions for the moment. Thank you for your interest in JD Labs.
+btnText: Contact Us
+btnURL: /en/contact
 # item  :
 #   - icon  : tf-ion-android-contact
 #     title : We would love to hire you

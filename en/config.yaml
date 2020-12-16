@@ -1,11 +1,10 @@
-
 # icons chart : http://fa2png.io/r/ionicons/
 # theme references: https://github.com/themefisher/navigator-hugo
 #                   https://themes.gohugo.io/navigator-hugo/
-baseURL: 'https://beta.jdlabs.co/en/'
+baseURL: "https://beta.jdlabs.co/en/"
 languageCode: en-ca
 title: JD Labs Inc.
-theme: navigator-hugo
+theme: navigator-new
 copyright: "Copyright © {year} JD Labs Technologies Inc. All rights reserved."
 enableRobotsTXT: true
 # Menu and sections
@@ -66,22 +65,18 @@ params:
     At JD Labs we are part of your development team, we are your extension team and we are always ready to code.
   hero:
     enable: true
-    heading: We are your extension development team
+    heading: Empowering you today through the technologies of tomorrow.
     description: >-
-      We created JD Labs because we love building tomorrow's technologies. We have been around for many years helping
-      companies build and host many innovative applications. Our group of experts offers our clients an entire team 
-      that can expand your existing development team or take on the extra development projects you do not have time to
-      realize. We can create proof of concept, write new applications, host and operate your application while you 
-      concentrate on your true business.
+
     button: true
     btnText: Contact Us
-    btnURL: '/en/contact'
+    btnURL: "/en/contact"
     videoThumb: images/splash/5.png
     # videoURL: 'https://www.youtube.com/embed/g3-VxLQO7do'
   aboutSm:
     labelFooter: ABOUT
     enable: true
-    title: We have explored the application development landscape with passion for a long time
+    title: We are your development team.
     description: >-
       Our team is made of true experts that have more then ten years of experience in their respective fields.
       Our team code, host and maintain software every day. We are used to test new technologies and try them to
@@ -106,12 +101,12 @@ params:
       Our team is ready for your project! From architecture, to realisation and operations, we can help you realise
       your next innovative project.
     btnText: Contact Us
-    btnURL: '/en/contact'
+    btnURL: "/en/contact"
   errorPage:
     topTitle: 404
-    title: Page not found    
+    title: Page not found
     btnText: Welcome
-    btnURL: '/en/'
+    btnURL: "/en/"
     description: Sorry, but the page you were trying to view does not exist.
   contact:
     labelFooter: FOLLOW US
@@ -121,16 +116,16 @@ params:
     title: Contact Us.
     subtitle: >-
       Questions about how we can help or if you want to discuss about a new technology you want us to help you with.
-      Drop us a note or call us. 
-    address: '7027 rue de monaco, Saint-Hubert, Quebec, J3Z 0C7'
+      Drop us a note or call us.
+    address: "7027 rue de monaco, Saint-Hubert, Quebec, J3Z 0C7"
     addressLabel: Our Location
     phone: (514) 575-2497
     phoneLabel: Call Us
     # fax: +61 3827 3590
     # facebook: 'https://www.facebook.com/'
     socialLabel: We are social
-    twitter: 'https://twitter.com/JDLabsMTL/'
-    linkedin: 'https://www.linkedin.com/company/jdlabs/'
+    twitter: "https://twitter.com/JDLabsMTL/"
+    linkedin: "https://www.linkedin.com/company/jdlabs/"
     # dribbble: 'https://dribbble.com/'
     # instagram: 'https://www.instagram.com/'
     btnText: Submit
