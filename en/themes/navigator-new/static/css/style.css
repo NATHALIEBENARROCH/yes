@@ -7,9 +7,10 @@ body {
 
 p {
   font-family: "Titillium Web", sans-serif;
-  color: red;
+  color: black;
   font-size: 15px;
 }
+
 
 
 h1,
@@ -22,6 +23,10 @@ h6 {
   font-weight: 600;
 }
 
+h2 {
+  color:#6309c8;
+}
+
 /*=== MEDIA QUERY ===*/
 .no-padding {
   padding: 0 !important;
@@ -29,6 +34,19 @@ h6 {
 
 .inline-block {
   display: inline-block;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middlelogo {
+  display: inline-block;
+  width: 100px;
+margin: auto;
+align-items: center;
+padding-bottom: 400px;
 }
 
 ol,
@@ -438,7 +456,7 @@ a:hover {
 
 .commonTab .nav-tabs .nav-item .nav-link {
   background: #f9f9f9;
-  color: #8c898;2
+  color: white;
   text-transform: capitalize;
   border-radius: 0;
 }
@@ -446,7 +464,7 @@ a:hover {
 .commonTab .nav-tabs .nav-item .nav-link.active {
   border: 1px solid#6309c8;
   background:#6309c8;
-  color: #fff;
+  color:white;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link:hover {
@@ -483,20 +501,20 @@ a:hover {
 }
 
 .single-page-header .breadcrumb li a {
-  color: #8c8982;
+  color: grey;
 }
 
 .navigation {
   transition: 0.3s all;
-  background: white;
+  background:white;
 }
 
 .navigation .navbar-nav > li.active a {
-  color: white;
+  color:#6309c8;
 }
 
 .navigation .navbar-nav > li > a {
-  color:#6309c8;
+  color:black;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -523,7 +541,7 @@ a:hover {
 }
 
 .navigation .navbar-toggler {
-  color: #fff;
+  color: black;
   font-size: 30px;
   cursor: pointer;
   outline: none;
@@ -574,8 +592,12 @@ a:hover {
 }
 
 .navbar-brand {
-  height: 50px;
+  height: inherit;
   padding: 8px 0;
+}
+
+.navbar-brand img {
+  width: 70px;
 }
 
 .navbar-brand h1 {
@@ -618,7 +640,8 @@ a:hover {
 
 .hero-area .block h2 {
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 0 px;
+ 
 }
 
 .hero-area .block p {
@@ -704,6 +727,12 @@ a:hover {
   margin-bottom: 20px;
 }
 
+ .block h1 {
+  font-size: 60px;
+  font-weight: 700;
+
+}
+
 .hero-area-video .block p {
   color: #fff;
   text-transform: uppercase;
@@ -771,10 +800,14 @@ a:hover {
 ==================================================================*/
 .about-2 {
   background: #f7f7f7;
+  padding-top: 30px;
+  padding-bottom: 40px;
+
 }
 
 .about-2 h2 {
   position: relative;
+  color: #6309c8;
 }
 
 .about-2 h2:before {
@@ -785,9 +818,8 @@ a:hover {
   display: inline-block;
   width: 12%;
   height: 3px;
-  background-color white;
-  background-image: linear-gradient(100deg,#6309c8, #fee54d);
-  background-image: linear-gradient(100deg,#6309c8, #fee54d);
+  background-image: linear-gradient(100deg,#6309c8, white);
+  background-image: linear-gradient(100deg,#6309c8, white);
 }
 
 @media (max-width: 768px) {
@@ -1444,14 +1476,14 @@ a:hover {
 
 .team-member .member-content ul li a i {
   color:#6309c8;
-  background: linear-gradient(100deg,#6309c8, #fee54d);
+  background: linear-gradient(100deg,#6309c8, white);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .team-member .member-content ul li a::hover {
-  background-color: #6cb670;
+  background-color: ,#6309c8;
   border: 1px solid transparent;
 }
 

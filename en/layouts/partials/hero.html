@@ -5,7 +5,7 @@
       <div class="col-md-10 offset-md-1">
         <div class="block">
           {{ with .Site.Params.hero.heading }}
-          <h2>{{ . }}</h2>
+          <h1>{{ . }}</h1>
           {{ end }} {{ with .Site.Params.hero.description }}
           <p>{{ . }}</p>
           {{ end }} {{ if .Site.Params.hero.button }}
@@ -22,10 +22,13 @@
               >
             </li>
           </ul>
+          <div class="col-md-2 offset-md-5"><img class="middlelogo" src="{{ with .Site.Params.hero.logo }}{{.}}{{ end }}" alt=""/></div>
           {{ end }}
+          
         </div>
       </div>
     </div>
   </div>
 </section>
+{{"<!-- Hero section End -->" | safeHTML}}
 {{ end }}

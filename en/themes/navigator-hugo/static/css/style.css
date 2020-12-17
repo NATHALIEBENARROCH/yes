@@ -585,6 +585,10 @@ a:focus, a:hover {
   padding-left: 30px;
 }
 
+.hero-area h1{
+  padding-top: 0px;
+}
+
 @media (max-width: 480px) {
   .hero-area .block {
     padding: 0;
