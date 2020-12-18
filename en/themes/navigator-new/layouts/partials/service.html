@@ -5,23 +5,25 @@
         <div class="row">
             <div class="col">
                 <div class="title text-center">
-                    {{ with .Site.Data.service.topTitle }}<h4>{{.}}</h4>{{ end }}
                     {{ with .Site.Data.service.title }}<h2>{{.}}</h2><span class="border"></span>{{ end }}
                     {{ with .Site.Data.service.subtitle }}<p>{{.}}</p>{{ end }}
                 </div>
+        <div><img class="col-12 col-md-10 offset-md-1 bottomimages" src= "{{.Site.Data.service.image}}"/></div>
             </div>
         </div>
         <div class="row">
             {{ range .Site.Data.service.item }}
             <div class="col-md-4">
-                <div class="block">
-                    {{ with .icon }}<i class="{{.}}"></i>{{ end }}
-                    {{ with .title }}<h3>{{.}}</h3>{{ end }}
+    
+                <div class="bottomimages block d-flex justify-content-center flex-column align-items-center">
+                    <div><div>{{ with .icon }}<i class="{{.}}"></i>{{ end }}
+                    {{ with .title }}<h3>{{.}}</h3>{{ end }}</div>
                     <ul>
                         {{ range .list }}
                         <li>{{.name}}</li>
                         {{ end }}
                     </ul>
+                </div>
                 </div>
             </div>
             {{ end }}

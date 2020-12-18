@@ -309,6 +309,10 @@
 .tf-ion-android-pin:before {
   content: "\f3a3";
 }
+
+.tf-ion-android-pin {
+ color: ;
+}
 .tf-ion-android-plane:before {
   content: "\f3a4";
 }
@@ -2515,3 +2519,14 @@
   content: "\e063";
 }
 
+.tf-ion-android-pin {
+  color:#6309c8;
+}
+
+.tf-ion-ios-telephone {
+  color:#6309c8;
+}
+
+.tf-ion-ios-contact {
+  color:#6309c8;
+}

@@ -1,9 +1,9 @@
 enable    : true
-title     : We care about our work
+title     : Our work is our mission.
 description: >
-  We take pride in delivering applications the clients really need.
-  This is why we gather the best team to deliver the greatest applications.
-image     : images/about/about-1.jpg
+  We take pride in delivering applications clients really need.
+  Our goal is to offer your projects the best team that will deliver the greatest applications.
+image     : /en/images/about/about-4.jpg
 servicelist:
   - name    : Genius Developers
   - name    : Experts Linux Admins

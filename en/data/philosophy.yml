@@ -1,7 +1,8 @@
 enable    : true
 topTite   : LITTLE MORE BRIEF
 title     : About Us.
-subtitle  : We were once consultants for many years. We joined forces and we created JD Labs.
+subtitle  : We started out as consultants building technologies geared towards company's needs for many years. We combined our strengths and expertise in the field and launched JD Labs.
+teamimage : /en/images/workingpeople2.jpg
 tabItem   :
   - id        : philosophy
     title     : Our Philosophy
@@ -21,26 +22,25 @@ tabItem   :
     title     : Mission
     heading   : Our Mission
     content   : >
-      Delevering top quality application that will be easy to maintain and operate. We pride ourselves with great
-      software that are easy to use, maintain and evoluate.
+      We pride on delivering applications that will be easy to maintain, operate and evolve geared towards your
+      future needs.
       <br /><br />
-      We build software that you will not have to change after a year because it does not do what you were looking
-      for in the first place. We will work with your team and develop the application they need.
-    image     : images/company/company-image-2.jpg
+      We build software that you will not have to constantly change because it will take into consideration your
+      evolution. We will work with your team to develop the application that will fulfill your needs.
+    image     : images/company/company-image-3.jpg
 
   - id        : vision
     title     : Vision
     heading   : Our Vision
     content   : >
-      We built a team because we did not want to be just another recrutment firm. We want to accompany your project
-      team all the way to the success. If we need to train your employees to one of the technology we use to develop
-      the application, we will have this person sitting with our team and live like he was one of us day after day,
-      until he becomes the expert.
+      We built a team as our goal was not to be just another recrutment firm. Our mission is to accompany your 
+      team all the way to its success. We can finalize projects up to the training of your employees that we will take under our wing 
+      until they master the technology we have provided. 
       <br /><br />
-      We will work with your product owner or your scrum master, to ensure there is visibility to the deliverables
-      we have to produce.
+      We will collaborate with your product owner or scrum master, to ensure visibility of the deliverables
+      we produce.
       <br /><br />
-      We love fast pace evolving environment where there is total visibility to the work we accomplish.
+      We thrive on fast pace evolving environments that reflect visibility of the work we accomplish.
       <br /><br />
-      We are your extension development team!
-    image     : images/company/company-image-3.jpg
+      We are your extension development team.
+    image     : images/company/company-image-2.jpg

@@ -1,7 +1,8 @@
 enable    : true
 topTitle  : A LIST OF SERVICES
-title     : Our Service.
-subtitle  : We love technologies and our team covers expertise in all the following fields.
+title     : Our Services.
+image     : /en/images/services.jpg 
+subtitle  : We thrive on technology. Our team's expertise covers the following fields.
 item      :
   - icon  : tf-ion-ios-copy
     title : Application Development

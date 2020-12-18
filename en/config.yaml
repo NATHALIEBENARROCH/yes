@@ -53,10 +53,11 @@ menu:
       weight: 5
 params:
   author: JD Labs Technologies Inc.
-  description: Welcome at JD Labs Technologies Inc.
+  description: Welcome to JD Labs Technologies Inc.
   googleTagManager: UA-118656387-1
   home: Home
   logo: images/logo.png
+  logo2: images/logo2.svg
   dateFormat: 1 August 2018
   otherLanguage:
     label: fr
@@ -84,6 +85,7 @@ params:
       Our team codes, hosts and maintains software every day. We constantly experiment with and test new technologies in order to
       propose to our clients the best technology for their needs.
     bg: images/workingpeople.jpg
+ 
   company:
     labelFooter: COMPANY
   service:
@@ -99,9 +101,9 @@ params:
     bg: images/call-to-action/call-to-action-bg-2.jpg
     title: Let's Create Something Together
     subtitle: >-
-      Not sure where to start with your new application development or having to much projects on your plate already?
+      Not sure where or how to start your new application development?
       <br />
-      Our team is ready for your project! From architecture, to realisation and operations, we can help you realise
+      Our team is ready for your project. From architecture, to realisation and operations, we can help you launch
       your next innovative project.
     btnText: Contact Us
     btnURL: "/en/contact"
@@ -120,7 +122,7 @@ params:
     subtitle: >-
       Call us for any questions on new technologies or how we can best serve your needs.
       Drop us a note or call.
-    address: "7027 rue de monaco, Saint-Hubert, Quebec, J3Z 0C7"
+    address: "7027 rue de Monaco, Saint-Hubert, Quebec, J3Z 0C7"
     addressLabel: Our Location
     phone: (514) 575-2497
     phoneLabel: Call Us

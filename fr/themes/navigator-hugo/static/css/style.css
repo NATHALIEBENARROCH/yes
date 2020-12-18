@@ -431,6 +431,8 @@ a:hover {
   text-align: center;
 }
 
+
+
 .commonTab .nav-tabs .nav-item {
   margin: 0 3px;
 }
@@ -605,6 +607,7 @@ a:hover {
 .hero-area .block {
   color: #fff;
   padding-left: 30px;
+  height: 100vh;
 }
 
 @media (max-width: 480px) {
@@ -626,11 +629,17 @@ a:hover {
 
 .hero-area .block .list-inline {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .hero-area .block .btn-main,
 .hero-area .block .btn-main-sm {
   margin-right: 8px;
+}
+
+.parent {
+  padding: 0px;
+
 }
 
 .video-player iframe {

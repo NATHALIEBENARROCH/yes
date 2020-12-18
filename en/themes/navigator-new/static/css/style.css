@@ -38,15 +38,15 @@ h2 {
 
 .parent {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  width: 100
 }
+
 .middlelogo {
   display: inline-block;
   width: 100px;
 margin: auto;
 align-items: center;
-padding-bottom: 400px;
 }
 
 ol,
@@ -445,6 +445,9 @@ a:hover {
   outline: none;
 }
 
+.breadcrumb-item.active {
+  color: white;
+}
 .commonTab .nav-tabs {
   border: 1px solid transparent;
   text-align: center;
@@ -455,8 +458,9 @@ a:hover {
 }
 
 .commonTab .nav-tabs .nav-item .nav-link {
-  background: #f9f9f9;
-  color: white;
+  background: white;
+   border: 1px solid #6309c8;
+  color: #6309c8;
   text-transform: capitalize;
   border-radius: 0;
 }
@@ -464,7 +468,7 @@ a:hover {
 .commonTab .nav-tabs .nav-item .nav-link.active {
   border: 1px solid#6309c8;
   background:#6309c8;
-  color:white;
+  color: white;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link:hover {
@@ -501,7 +505,7 @@ a:hover {
 }
 
 .single-page-header .breadcrumb li a {
-  color: grey;
+  color:black;
 }
 
 .navigation {
@@ -546,6 +550,7 @@ a:hover {
   cursor: pointer;
   outline: none;
 }
+
 
 .navigation .nav .open > a {
   background: none;
@@ -592,16 +597,28 @@ a:hover {
 }
 
 .navbar-brand {
+  display:flex;
+  flex-direction: row;
   height: inherit;
   padding: 8px 0;
+
 }
 
-.navbar-brand img {
-  width: 70px;
+.navbarlogo {
+  width: 75px;
 }
 
 .navbar-brand h1 {
   margin: 0;
+}
+
+.navbarlogo2 {
+  width: 100px;
+  padding: 0px;
+}
+
+.heroblock {
+border: 10px solid red;
 }
 
 .hero-area {
@@ -619,7 +636,10 @@ a:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
+  background-attachment: fixed;
+  background-position: center; 
+  }
+
 
 @media (max-width: 480px) {
   .hero-area {
@@ -629,7 +649,7 @@ a:hover {
 
 .hero-area .block {
   color: #fff;
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 @media (max-width: 480px) {
@@ -659,6 +679,10 @@ a:hover {
   margin-right: 8px;
 }
 
+.bottomimages {
+border-radius: 30px;
+margin: 20px;
+}
 .video-player iframe {
   width: 100%;
   height: 100%;

@@ -3,9 +3,9 @@
 <section class="section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 text-center">
-                {{ with .Site.Data.clients.image }}<img class="img-fluid shadow rounded" src="{{ . | absURL }}" alt="service-image"/>{{ end }}
-            </div>
+
+            <div><img class="img-fluid bottomimages" src= "{{.Site.Data.clients.image}}"/></div>
+        </div>
             <div class="col-md-6 align-self-center">
                 {{ with .Site.Data.clients.title }}<h2>{{.}}</h2>{{ end }}
                 {{ with .Site.Data.clients.description }}<p>{{.}}</p>{{ end }}

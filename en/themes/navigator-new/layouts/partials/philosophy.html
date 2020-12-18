@@ -11,6 +11,7 @@
                     <span class="border"></span>
                     {{ end }}
                     {{ with .Site.Data.philosophy.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
+                    <div><img class="col-12 col-md-10 offset-md-1 bottomimages" src="{{.Site.Data.philosophy.teamimage }}" alt="about-image"/></div>
                 </div>
             </div>
         </div>
@@ -33,7 +34,7 @@
                                     {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
                                 </div>
                                 <div class="col-md-6">
-                                    <img class="img-fluid rounded shadow" src="{{ .image | absURL }}" alt="tab-image">
+                                    <img class="img-fluid bottomimages" src="{{ .image | absURL }}" alt="tab-image">
                                 </div>
                             </div>
                         </div>
