@@ -5,7 +5,7 @@
 baseURL: 'https://beta.jdlabs.co/'
 languageCode: fr-ca
 title: JD Labs Inc.
-theme: navigator-hugo
+theme: navigator-new
 copyright: "© {year} JD Labs Technologies Inc. Tous droits réservés."
 enableRobotsTXT: true
 # Menu and sections
@@ -107,7 +107,7 @@ params:
     btnURL: '/contact'
   errorPage:
     topTitle: 404
-    title: Page Non Trouvée  
+    title: Page Non Trouvée
     btnText: Accueil
     btnURL: '/'
     description: Désolé, mais la page que vous tentiez d'afficher n'existe pas.
@@ -144,4 +144,3 @@ params:
     formActionURL: /api/index.php
     formActionSuccess: Merci de nous avoir contacté. Nous vous répondrons sous peu.
     formActionError: Nous sommes désolé une erreur c'est produite. Appelez-nous.
-
