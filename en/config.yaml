@@ -56,7 +56,7 @@ params:
   description: Welcome to JD Labs Technologies Inc.
   googleTagManager: UA-118656387-1
   home: Home
-  logo: images/logo.png
+  logo: images/logo.svg
   logo2: images/logo2.svg
   dateFormat: 1 August 2018
   otherLanguage:
@@ -73,19 +73,19 @@ params:
     
     btnText: Contact Us
     btnURL: "/en/contact"
-    logo: images/logowhite.png
+    logo: images/logowhite.svg
     videoThumb: images/splash/5.png
     # videoURL: 'https://www.youtube.com/embed/g3-VxLQO7do'
   aboutSm:
     labelFooter: ABOUT
     enable: true
-    title: We are your development team.
+    title: We created JD Labs, because we are extremely experienced in building the technologies of tomorrow.
     description: >-
-      Our team is made of true experts that have over ten years of experience in their respective fields.
-      Our team codes, hosts and maintains software every day. We constantly experiment with and test new technologies in order to
-      propose to our clients the best technology for their needs.
+      We have been consultants for many years, helping companies build and host diverse technologies. Our group of experts 
+      can offer you a team who can expand your existing development team or take on additional development projects that you don't have time for. 
+      We can create a proof of concept, write new apps, host and operate your app, while you focus on your business. Our team codes, hosts and maintains software every day. 
     bg: images/workingpeople.jpg
- 
+    title2: We constantly experiment with and test new technologies in order to offer to our clients the best technology suited for their present and growing needs.
   company:
     labelFooter: COMPANY
   service:
@@ -111,7 +111,7 @@ params:
     topTitle: 404
     title: Page not found
     btnText: Welcome
-    btnURL: "/en/"
+    btnURL: "/fr/"
     description: Sorry, but the page you were trying to view does not exist.
   contact:
     labelFooter: FOLLOW US

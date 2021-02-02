@@ -17,3 +17,9 @@ item    :
       <br />
       <br />
       Commençons à travailler dès à la construction de votre prochaine technologie. 
+  - positionRight: false
+    image: images/about/about-3.jpg
+    title: Nous vous livrons des résultats
+    description: >
+Nous planifions, construisons, testons et testons encore afin que vous
+      soyez prêts à relever les défis de demain et à surfer sur la vague et avec l'énergie que le Web et la technologie peuvent vous apporter. 

@@ -57,7 +57,8 @@ params:
   description: Bienvenue chez JD Labs Technologies Inc.
   googleTagManager: UA-118656387-1
   home: Accueil
-  logo: images/logo.png
+  logo: images/logo.svg
+  logo2: images/logo2.svg
   dateFormat: 1 August 2018
   otherLanguage:
     label: en
@@ -66,12 +67,8 @@ params:
     Chez JD Labs, nous faisons parti de votre équipe de développement. Nous sommes votre équipe d'extension.
   hero:
     enable: true
-    heading: Nous sommes votre équipe de développement d'extension
-    description: >-
-      Nous avons créé JD Labs, parce que nous aimons construire les technologies de demain. Nous avons été consultant pendant de nombreuses années tout en aidant
-      les entreprises à construire et héberger de nombreuses technologies. Notre groupe d'experts offre à nos clients une équipe entière,
-      qui peut agrandir votre équipe de développement existante ou prendre en charge les projets de développement supplémentaires que vous n'avez pas le temps de réaliser.
-      Nous pouvons créer une preuve de concept, écrire de nouvelles applications, héberger et exploiter votre application, pendant que vous vous concentrez sur vos affaires.
+    heading: Dynamiser votre entreprise aujourd'hui grâce aux technologies de demain.
+    description:  
     button: true
     btnText: Contactez-Nous
     btnURL: '/contact'
@@ -80,12 +77,16 @@ params:
   aboutSm:
     labelFooter: ACCUEIL
     enable: true
-    title: Nous avons exploré avec passion le paysage du développement d'applications depuis longtemps
-    description: >-
-      Notre équipe est composée de véritables experts, qui ont plus de dix ans d'expérience dans leurs domaines respectifs.
-      Notre équipe code, héberge et maintient des logiciels tous les jours. Nous avons l'habitude de tester de nouvelles technologies et de les essayer pour
-      mieux aider nos clients à choisir la technologie adaptée à leurs besoins.
-  company:
+    title: Nous avons créé JD Labs, parce que nous savons construire les technologies de demain. 
+    description: Nous avons été consultants pendant de nombreuses années tout en aidant les entreprises 
+    à construire et héberger de nombreuses technologies. Notre groupe d'experts offre à nos clients une
+    équipe entière, qui peut agrandir votre équipe de développement existante ou prendre en charge les projets
+    de développement supplémentaires que vous n'avez pas le temps de réaliser. Nous pouvons créer une preuve de 
+    concept, écrire de nouvelles applications, héberger et exploiter votre application, pendant que vous vous concentrez
+     sur vos affaires. Notre équipe code, héberge et maintient des logiciels tous les jours.
+    bg: images/workingpeople.jpg
+    title2: Nous testons constamment de nouvelles technologies afin de mieux aider nos clients à choisir la technologie adaptée à leurs besoins présents et futurs.
+  company: >-
     labelFooter: COMPAGNIE
   service:
     labelFooter: NOS SERVICES

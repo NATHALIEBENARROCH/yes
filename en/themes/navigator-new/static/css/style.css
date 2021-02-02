@@ -605,7 +605,7 @@ a:hover {
 }
 
 .navbarlogo {
-  width: 75px;
+  width: 100px;
 }
 
 .navbar-brand h1 {
@@ -1240,8 +1240,12 @@ margin: 20px;
   }
 }
 
+.service-icon {
+  padding: 30px;
+}
 .services .service-block .service-icon {
   margin-bottom: 15px;
+
 }
 
 .services .service-block i {
@@ -1507,7 +1511,7 @@ margin: 20px;
 }
 
 .team-member .member-content ul li a::hover {
-  background-color: ,#6309c8;
+  background-color: #6309c8;
   border: 1px solid transparent;
 }
 
@@ -1520,6 +1524,11 @@ margin: 20px;
   transition: all 0.6s ease 0s;
 }
 
+.titletext {
+  margin: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 /*=================================================================
   Testimonial section
 ==================================================================*/

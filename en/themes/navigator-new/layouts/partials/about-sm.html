@@ -2,21 +2,31 @@
 {{ "<!-- Start About Section -->" | safeHTML }}
 <section class="about-2 section bg-gray" id="about">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-5">
+
+        <div class="column">
+            <div class="col-12 text-center titletext">
                 {{ with .Site.Params.aboutSm.title }}
                     <h2>{{ . }}</h2>
                 {{ end }}
             </div>
-            <div class="col-12 col-md-7">
+        </div>   
+        <div class="w-100"></div>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+                <img class="col-12 col-md-7" src="{{.Site.Params.aboutSm.bg}}" alt=""/>            
+        <div class="col-12 col-md-5">
                 {{ with .Site.Params.aboutSm.description }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
-            </div>    
+            </div> 
         </div>
-        <div class="row">
-   <img class="col-12 col-md-10 offset-md-1" src="{{.Site.Params.aboutSm.bg}}" alt=""/>
+        <div class="w-100"></div>
+        <div class="column">
+            <div class="col-12 text-center titletext">
+                {{ with .Site.Params.aboutSm.title2 }}
+                    <h2>{{ . }}</h2>
+                {{ end }}
             </div>
+        </div>   
     </div>
 </section>
 {{ "<!-- End About section -->" | safeHTML }}

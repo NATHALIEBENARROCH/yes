@@ -4,6 +4,7 @@ title     : À propos.
 subtitle  : >-
   Nous avons été des consultants pendant plusieurs années. <br />
   Nous avons aujourd'hui rassembler nos forces et nous avons créé JD Labs.
+teamimage : /en/images/workingpeople2.jpg
 tabItem   :
   - id        : philosophy
     title     : Notre Philosophie
@@ -28,7 +29,7 @@ tabItem   :
       <br /> <br />
       Nous construisons des logiciels sur mesure pour vos besoins. Nous travaillerons avec votre équipe et nous développerons
       l'application dont vous avez besoin.
-    image     : images/company/company-image-2.jpg
+    image     : images/company/company-image-3.jpg
 
   - id        : vision
     title     : Vision
@@ -44,4 +45,4 @@ tabItem   :
       Nous adorons les environnements en évolution rapide, où la visibilité du travail que nous accomplissons est transparente.
       <br /> <br />
       Nous sommes votre équipe de développement d'extension!
-    image     : images/company/company-image-3.jpg
+    image     : images/company/company-image-2.jpg
